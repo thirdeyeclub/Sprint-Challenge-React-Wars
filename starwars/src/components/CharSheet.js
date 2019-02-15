@@ -1,5 +1,5 @@
 import React from 'react';
-import './Starwars.css';
+import './StarWars.css';
 
 const CharSheet = props => {return(
 <div className="CharSheet">

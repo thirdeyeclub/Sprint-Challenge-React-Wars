@@ -1,10 +1,10 @@
 import React from 'react';
-import './Starwars.css';
+import './StarWars.css';
 import CharSheet from './CharSheet';
 
 const CharList = props => {return(
     <div ClassName='CharList'>
-    {props.chars.map(character => (
+    {props.characters.map(character => (
         <CharSheet
             key = {character.name}
             name = {character.name}
