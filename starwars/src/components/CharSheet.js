@@ -4,7 +4,7 @@ import './StarWars.css';
 const CharSheet = props => {return(
 <div className="char-sheet">
     
-    <p className="name">Name: {props.character.name}</p>
+    <p className="name">{props.character.name}</p>
     
   
     <p className="characterData">Height: {props.character.height}</p>
